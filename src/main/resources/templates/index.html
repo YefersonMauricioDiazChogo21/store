@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../styles/css/bootstrap.min.css">
+    <script src="../scripts/app.js" defer></script>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="card text-center">
+                <div class="card-header">
+                  Store
+                </div>
+                <div class="card-body">
+                    <form id="formProduct" class="row g-3">
+                        <div class="col-md-6">
+                          <label for="codigo" class="form-label">Codigo del producto</label>
+                          <input type="text" class="form-control" id="codigo"  name="codigo" value="" required>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="nombre" class="form-label">Nombre del producto</label>
+                          <input type="text" class="form-control" id="nombre" name="nombre" value="" required>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="precio" class="form-label">Precio</label>
+                          <div class="input-group">
+                            <input type="number" class="form-control" id="precio" name="precio" aria-describedby="inputGroupPrepend2" required>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="stock" class="form-label">Cantidad en stock</label>
+                          <input type="number" class="form-control" id="stock" name="stock" required>
+                        </div>
+                        <div class="col-12">
+                          <button id="newSuit" class="btn btn-primary" type="submit">Añadir Producto</button>
+                          <button id="save" class="btn btn-dark" >Listar Productos</button>
+                        </div>
+                      </form>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  store
+                </div>
+            </div>
+        </div>
+        
+    </div>
 </body>
 </html>

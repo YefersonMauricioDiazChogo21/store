@@ -1,8 +1,8 @@
 {
-  "12" : {
-    "codigo" : 12,
-    "nombre" : "Protex 2",
+  "34" : {
+    "codigo" : 34,
+    "nombre" : "Colgate",
     "precio" : 4000,
-    "stock" : 30
+    "stock" : 23
   }
 }
